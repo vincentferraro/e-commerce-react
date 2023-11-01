@@ -5,6 +5,7 @@ import Article2 from "../../assets/img/articles/article_2.jpg"
 import HomeHeader from "./HomeHeader"
 import SectionHeader from "../About/SectionHeader"
 import HomeImages from "./HomeImages"
+import HomeSubscription from "./HomeSubscription"
 // Context API
 
 const Home = ()=>{
@@ -22,6 +23,7 @@ const Home = ()=>{
         <HomeHeader {...img}/>
         <SectionHeader message="Organically dyed textiles and ceramics from Santa Fe, New Mexico." />
         <HomeImages />
+        <HomeSubscription />
     </div>) 
 
 }

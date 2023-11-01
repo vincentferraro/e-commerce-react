@@ -23,17 +23,17 @@ const Nav = ()=>{
     
 
     return(
-        <nav>
-            <ul>
+        <div className="h-36 text-xl flex flex-row items-center border-solid border-2 border-black ">
+            <ul className="block flex-row border-2 border-red">
             {dataNav1.map(element => <Link key={element.id} to={element.to}>{element.name}</Link>)}
             </ul>
-            <ul>
+            <ul className="border-2 border-red">
                 <Link to="/" > Marus</Link>
             </ul>
             <ul>
                 <Link to="/card">Card</Link>
             </ul>
-        </nav>
+        </div>
         
     )
 
