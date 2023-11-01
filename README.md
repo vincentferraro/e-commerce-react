@@ -75,3 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Component, Props
 - Context API Provider
 - Link, Routes
+
+
+## TODO 
+Working on Home header
