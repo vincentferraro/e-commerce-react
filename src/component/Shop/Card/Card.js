@@ -4,8 +4,8 @@ const Card = (props)=>{
         heigh:"100px"
     }
     return(
-        <div>
-            <img style={stylesImg}src={props.src} alt={props.alt} />
+        <div >
+            <img key={props.id} style={stylesImg}src={props.src} alt={props.alt} />
             <span>{props.description}</span> 
             <span>{props.price} {props.discount}</span>
             <span>{props.status}</span>
