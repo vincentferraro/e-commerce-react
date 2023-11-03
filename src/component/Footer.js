@@ -36,15 +36,15 @@ const Footer = ()=>{
         }
     ]
 
-    return( <footer>
-            <ul>
-                {dataFooter1.map(element => <Link key={element.id}to={element.to}>{element.name}</Link>)}
+    return( <footer className="h-[346px] bg-[#F1F1EF] flex flex-row justify-around">
+            <ul className="flex flex-col border-2 border-black justify-center  text-base underline">
+                {dataFooter1.map(element => <Link className="m-1"key={element.id}to={element.to}>{element.name}</Link>)}
             </ul>
-            <ul>
-                <li>Maru</li>
+            <ul className="flex flex-col border-2 border-black justify-center  text-base">
+                <li className="text-4xl font-light">Maru</li>
             </ul>
-            <ul>
-                {dataFooter2.map(element =><Link key={element.id}to={ element.to}>{element.name}</Link>)}
+            <ul className="flex flex-col border-2 border-black justify-center  text-base underline">
+                {dataFooter2.map(element =><Link  className="m-1" key={element.id}to={ element.to}>{element.name}</Link>)}
             </ul>
     </footer>)
 }

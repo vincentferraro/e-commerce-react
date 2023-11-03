@@ -16,7 +16,7 @@ const ShopNav = ()=>{
         id:3,
         to:"/mudcloths",
         name:"Mudcloths"
-    }]
+    },]
 
     return(
         <nav>

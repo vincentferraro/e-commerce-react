@@ -1,7 +1,7 @@
 const SectionHeader = (props)=>{
 
     return (
-        <section className="section-header">
+        <section className={props.className}>
             <p>
             {props.message}
             </p>
