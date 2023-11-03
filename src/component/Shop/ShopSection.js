@@ -11,29 +11,6 @@ import { useArticlesListContext } from "../../provider/ArticleProvider";
 
 const ShopSection = ()=>{
     const {articles} =useArticlesListContext()
-    // const dataShop = [{
-    //     src:Article1,
-    //     alt:"Article 1",
-    //     description:'Mudcloth and Wool Blanket',
-    //     price:'$50.00',
-    //     discount:'',
-    //     status:''
-    // },{
-    //     src:Article2,
-    //     alt:"Article 2",
-    //     description:'Mali Carmen African Mudcloth ',
-    //     price:'$40.00',
-    //     discount:'',
-    //     status:'SOLD OUT'
-    // },
-    // {
-    //     src:Article3,
-    //     alt:"Article 3",
-    //     description:'Swell Rope Bowl ',
-    //     price:'$30.00',
-    //     discount:'',
-    //     status:''
-    // }]
 
     return(
         <div>
